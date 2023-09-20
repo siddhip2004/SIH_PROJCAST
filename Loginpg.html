@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website-Name</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h2>Login Page</h2>
+    </header>
+    <main>
+        <div class="login">
+            <form id="login-form" method="post" action="login.php">
+                <label><b>Login As:</b></label>
+                <select id="role" name="role" required>
+                    <option value="disabled" disabled selected>Select your Role</option>
+                    <option value="student">Student</option>
+                    <option value="administrator">Administrator</option>
+                </select>
+                <br><br>
+                <label ><b>User Name</b></label>
+                <input type="text" id="Uname" name="Uname" placeholder="Username" required>
+                <br><br>
+                <label >Email Id:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label ><b>Institute</b></label>
+                <select id="institute" name="role" required>
+                    <option value="disabled" disabled selected>Select your Institute</option>
+                    <option value="1">Veermata Jijabai Institute of Technology(VJTI)</option>
+                    <option value="2">XLRI - Xavier Labour Relations Institute, Jamshedpur</option>
+                    <option value="3">Indian Institute of Management - [IIMR], Ranchi</option>
+                </select>
+                <br><br>
+                <label><b>Password</b></label>
+                <input type="password" id="Pass" name="Pass" placeholder="Password" required>
+                <br><br>
+                <input type="submit" id="log" name="log" value="Log In ">
+                <br><br>
+                <label>
+                    <input type="checkbox" id="check" name="remember"> Remember me
+                </label>
+                <br><br>
+                 <a href="index.html">Forgot Password </a>
+                 <p class="backhome"><a href="index.html">  Back to Home Page</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #23463f;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: grey;
+}
+Markup */
+header{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(144, 232, 245);;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+}
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    text-align: center;
+    background-color: #1798d0cd;
+    color: #171414;
+    padding: 20px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    background-color: #e3f7fa;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.backhome{
+    background-color: #1798d0cd;
+    color: #192423;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select, input[type="text"], input[type="password"]input[type="email"] {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #9b9393;
+    border-radius: 5px;
+}
+select option[disabled] {
+    background-color: #f7d8d8; 
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #1798d0cd;
+    color: #192423;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #137b95;
+}
+/* This CSS will style your login form with a modern, centered layout and some basic styling for the form elements. You can further customize the styles to match your website's design preferences. Make sure to include this CSS code in a separate login.css file or directly within your HTML file in a <style> block within the <head> section as you did before. */
+
+
+
+
+
