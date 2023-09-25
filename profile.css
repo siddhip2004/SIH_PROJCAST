@@ -1,0 +1,103 @@
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    text-align: centre;
+    padding: 20px;
+}
+
+.user-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #c2a9a9;
+}
+
+.nav-logo {
+    width: 180px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    position:absolute;
+    right:20px;
+    top:5px;
+  }
+  .logo {
+    width: 100px;
+    height: 50px;
+    background-color: #ffffff;
+    background-image: url("img1.png");
+    background-size: contain;
+    margin-left: 5px;
+  }
+
+  .navbar-texts-item a {
+    width: 175px;
+    height: 72px;
+    color: #0db5e4;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600px;
+  
+    
+  }
+  .navbar-texts {
+    text-decoration: none;
+    color:rgb(153, 241, 247);
+    /*border:solid 2px rgb(243, 21, 88);*/
+    /*background-color: #fdfd2e;*/
+    font-weight: 1000;
+    border-radius: 10px;
+    padding: 2px; 
+  
+  }
+  
+.user-name {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Style user profile section */
+.user-profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style user features section */
+.user-features {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects-count{
+    margin-bottom: 20px;
+}
+.saved-projects{
+    margin-bottom: 20px;
+}
+.top-domains{
+    margin-bottom: 20px;
+}
+.social-media{
+    margin-bottom: 20px;
+}

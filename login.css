@@ -58,6 +58,30 @@ a{
     background-color: grey;
 }
 Markup */
+.heading{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 100px;
+}
+h2{
+    margin-left:200px;
+}
+.nav-logo {
+  margin-left:5px;
+  width: 180px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: 56px;
+  background-color: #ffffff;
+  background-image: url("img1.png");
+  background-size: contain;
+
+}
 header{
         height: 30px;
         width: 100%;
@@ -65,8 +89,11 @@ header{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        position: fixed;
-        top: 0px;
+
+        /* position: fixed; */
+
+        
+
 }
 body, h2, form {
     margin: 0;
@@ -144,10 +171,21 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+
+.logintoprofile button:hover {
+
     background-color: #137b95;
 }
 /* This CSS will style your login form with a modern, centered layout and some basic styling for the form elements. You can further customize the styles to match your website's design preferences. Make sure to include this CSS code in a separate login.css file or directly within your HTML file in a <style> block within the <head> section as you did before. */
+
+.logintoprofile button {
+    background-color: #1798d0cd;
+    color: #192423;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 

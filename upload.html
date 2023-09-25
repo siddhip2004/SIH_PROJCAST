@@ -3,11 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Upload A Project</title>
     <link rel="stylesheet" href="upload.css">
 </head>
 <body>
-    
-    
+    <!-- <img src="/uploadbgimg.png" alt="Me" style="width:100%" > -->
+    <div class="navbar">
+        <!-- Navigation bar content from your existing code -->
+    </div>
+    <div class="bgimg"></div>
+    <div class="upload-form">
+        <div class="header">
+        <h2>Upload A Project</h2>
+        </div>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <!-- Project Name -->
+            <label for="projectName">Project Name:</label>
+            <input type="text" id="projectName" name="projectName" required>
+            <!-- Description -->
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+ 
+            <!-- Images -->
+            <label for="projectImages">Project Images:</label>
+            <small>Allowed file types: JPG, PNG, GIF</small>
+            <input type="file" id="projectImages" name="projectImages[]" accept="image/*" multiple required>
+ 
+            <!-- Tech Stacks -->
+            <label for="techStacks">Tech Stacks:</label>
+            <textarea id="techStacks" rows="4" name="techStacks" required></textarea>
+            
+            <label for="projectName">Git-Hub Repository link:</label>
+            <input type="text" id="projectName" name="projectName" required>
+
+            <!-- Challenges Faced -->
+            <label for="challenges">Challenges Faced:</label>
+            <textarea id="challenges" name="challenges" rows="4" required></textarea>
+ 
+            <!-- Submit Button -->
+            <div class="sign-in">
+                <p><a href="indexafterlogin.html">UPLOAD</a></p>
+                <div class="icon-sign-in">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <!-- <input type="submit" class="submit-button" value="Upload Project"> -->
+        </form>
+    </div>
 </body>
 </html>

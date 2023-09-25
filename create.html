@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
     <title>Projcast-Login</title>
 
-    
-  
+
+
     <link rel="stylesheet" href="login.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -18,21 +18,24 @@
 <body>
     <header>
         <div class="heading">
-            <h2>Projcast Login Page</h2>
-            <div class="nav-logo">
-                <div class="logo"></div>
-            </div>
+            <h2>Projcast Create Account</h2>
+            <!-- <div class="nav-logo">
+                <div class="logo">Logo</div>
+            </div> -->
         </div>
     </header>
     <main>
         <div class="login">
             <form id="login-form" method="post" action="login.php">
-                <label><b>Login As:</b></label>
+                <label><b>Create Account As:</b></label>
                 <select id="role" name="role" required>
                     <option value="disabled" disabled selected>Select your Role</option>
                     <option value="student">Student</option>
                     <option value="administrator">Administrator</option>
                 </select>
+                <br><br>
+                <label><b>Full Name</b></label>
+                <input type="text" id="Uname" name="Uname" placeholder="Full Name" required>
                 <br><br>
                 <label><b>User Name</b></label>
                 <input type="text" id="Uname" name="Uname" placeholder="Username" required>
@@ -51,22 +54,22 @@
                 <label><b>Password</b></label>
                 <input type="password" id="Pass" name="Pass" placeholder="Password" required>
                 <br><br>
+                <label><b>Confirm Password</b></label>
+                <input type="password" id="Pass" name="Pass" placeholder="Password" required>
+                <br><br>
 
                 <!-- <input type="submit" id="log" name="log" value="Log In "> -->
                 <div class="logintoprofile">
-                    <button class="login"><a href="indexafterlogin.html">Log In</a></button>
+                    <button class="login"><a href="indexafterlogin.html">Sign In</a></button>
                 </div>
 
-         
+
 
                 <br><br>
                 <label>
                     <input type="checkbox" id="check" name="remember"> Remember me
                 </label>
                 <br><br>
-                <a href="index.html">Forgot Password </a>
-                <br>
-                <a href="create.html">Create Account</a>
                 <p class="backhome"><a href="index.html"> Back to Home Page</a></p>
             </form>
         </div>
